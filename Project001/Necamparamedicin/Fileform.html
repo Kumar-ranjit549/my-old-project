@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>File form</title>
+    <link rel="stylesheet" href="filestyle.css">
+</head>
+<body>
+<form action="#">
+<div class="form-h">
+    <div class="head">NECAM</div>
+<div class="form">
+    <div class="form-t">
+        <lable class="input">Name</lable>
+        <input type="text" Required placeholder="Name">
+    </div>
+    <div class="form-t">
+        <lable class="input">Father Name</lable>
+        <input type="text" Required placeholder="Father Name">
+    </div>
+    <div class="form-t">
+        <lable class="input">Mobile Number</lable>
+        <input type="text" Required placeholder="000-000-0000" pattern="[0-9]{4,12}" title="Plase add 10 Number">
+    </div>
+    <div class="form-t">
+        <lable class="input">Email</lable>
+        <input type="email" Required placeholder="Email">
+    </div>
+    <div class="form-t">
+        <lable class="input">Gender</lable>
+        <select name="Gender">
+            <option value="select">--Select--</option>
+            <option value="male">Male</option>
+            <option value="fe-male">Fe-male</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    <div class="form-t">
+        <lable class="input">Religion</lable>
+        <input list="Religion" placeholder="Your Religion">
+       <datalist id="Religion">
+            <option value="Hinduism">Hinduism</option>
+            <option value="Muslims">Muslims</option>
+            <option value="Christianity">Christianity</option>
+            <option value="Sikhism">Sikhism</option>
+            <option value="Buddhism">Buddhism</option>
+            <option value="Jainism">Jainism</option>
+       </datalist>
+    </div>
+     <div class="form-t">
+        <lable class="input">Nationality</lable>
+        <input list="Nationlity" Required placeholder="Select">
+    <datalist id="Nationlity">
+        <option value="India">India</option>
+    </datalist>
+    </div>
+    <div class="form-t">
+        <lable class="input">Question</lable>
+        <input type="text" placeholder="Asked">
+    </div>
+    <div class="form-t">
+        <lable class="input">Pin</lable>
+        <input type="text" Required placeholder="Pin Cord" pattern="[0-9]{6}" title="Add 6 character">
+    </div>
+    <div class="form-t">
+        <lable class="input">Date of Ragistration</lable>
+        <input type="date" Required placeholder="00/00/0000">
+    </div>
+    <div class="form-t">
+        <lable class="input">Year of Passing</lable>
+        <input type="text" Required placeholder="0000" pattern="[0-9,-/]{4,10}">
+    </div>
+    <div class="form-t">
+        <lable class="input">Registration Number</lable>
+        <input type="text" Required placeholder="000-000-0000">
+    </div>
+    <div class="form-t">
+        <lable class="input">Date Of Issue Certificate</lable>
+        <input type="date" Required placeholder="00/00/0000">
+    </div>
+    <div class="form-t">
+        <lable class="input">Exam Roll Number</lable>
+        <input type="text" Required placeholder="Roll Number">
+    </div>
+    <div class="form-t">
+        <lable class="input">Course</lable>
+        <input type="text" Required placeholder="Select">
+    </div>
+    <div class="form-t">
+        <lable class="input">Year/Session</lable>
+        <input type="text" Required placeholder="0000">
+    </div>
+    <div class="form-t">
+        <lable class="input">Exam Date</lable>
+        <input type="date" Required placeholder="00/00/0000">
+    </div>
+    <div class="form-t">
+        <lable class="input">Division</lable>
+        <input type="text" Required placeholder="Division">
+    </div>
+    <div class="submit"><button class="button">submit</button></div>
+    <div class="submit"><button class="reset" type="reset">reset</button></div>
+</div>
+</div>
+</form>
+</body>
+</html>

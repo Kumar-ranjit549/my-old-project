@@ -1,0 +1,86 @@
+
+.pric{
+    padding: 150px 70px 70px 300px;
+    background-image: url("Office.jpg");
+    
+}
+.price-ca{
+     width: 230px;
+     height: 500px;
+     float: left;
+     background-color: #30a5b9;
+     text-align: center;
+     font-family: cursive; 
+     line-height: 45px;
+     border: 0.8px solid rgb(112, 230, 1);
+     border-radius: 20px;
+    margin: 0px 50px 50px 0px;
+}
+.price-cb{
+        width: 230px;
+        height: 500px;
+        float: left;
+        background-color: #01f56f96;
+        text-align: center;
+        font-family: cursive;
+        line-height: 45px;
+        border: 0.8px solid rgb(226, 194, 14);
+        border-radius: 20px;
+        margin: 0px 50px 50px 0px;
+        box-shadow: box-shadow: 70px 100px 204px 0 rgb(0, 145, 232);
+        box-sizing: border-box;
+}
+
+.price-cc {
+    width: 230px;
+    height: 500px;
+    float: left;
+    background-color: #e9e514;
+    text-align: center;
+    font-family: cursive;
+    line-height: 50px;
+    border: 0.8px solid rgb(14, 226, 96);
+    border-radius: 20px;
+    margin: 0px 50px 50px 0px;
+}
+
+.p-p {
+    background-color: #73deecb6;;
+    border-radius: 30px;
+    height: 35px;
+    border-color: antiquewhite;
+    padding-bottom: 10px;
+    font-size: xx-large;
+    font-family: initial;
+}
+img {
+    width: 40px;
+    height: 40px;
+}
+.input{
+    border-color: red;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 20px;
+    padding: 12px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+input:hover{
+    color: rgb(248, 0, 0);
+    background-color: white;
+}
+@media(max-width: 767px) {
+    .pric{
+        padding: 10px 10px 20px 30px;
+    }
+    .price-ca{
+        margin: 0px 20px 50px 0px;;
+    }
+    .price-cb{
+        margin: 0px 20px 50px  0px;
+    }
+    .price-cc{
+        margin-bottom: 50px;
+    }
+}
